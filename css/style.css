@@ -1,5 +1,93 @@
-h1 {
-  color: red;
+.background-image{
+  background-image: url(http://tiny.cc/54graz);
+  color: white;
+  min-height: 600px;
+  object-fit: cover;
 }
+.logo{
+  max-height: 32px;
+}
+img{
+  max-width: 100%;
+
+}
+
+/* Navigation */
+.navigation_con{
+  display: flex;
+  justify-content: space-between;
+
+}
+.navigation{
+
+    color: white;
+    padding: 12px 0;
+    font-family: 'Literata', serif;
+}
+.navigation ul{
+
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+
+}
+.navigation li{
+    display: inline-block;
+    position: relative;
+    margin-right: 36px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+
+}
+.splash{
+  display: flex;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.splash h1{
+  font-size: 86px;
+  fint-family: 'Muli&display', sans-serif;
+}
+.splash h2{
+  font-size: 48px;
+}
+.btn-1{
+  border-radius: 5%;
+  background-color: blue;
+  border: none;
+   padding: 15px 32px;
+
+}
+.btn-1 a{
+  color: white;
+  text-decoration: none;
+}
+.container_boxes{
+
+  flex-wrap: row;
+}
+.container_boxes h3{
+  display: block;
+  flex: 100%;
+  text-align: center;
+  margin: 0;
+}
+.row1{
+  display: flex;
+  flex-row: wrap;
+  justify-content: space-between;
+}
+.box2{
+
+  width: 30%;
+
+}
+/*# sourceMappingURL=style.css.map */
+
 
 /*# sourceMappingURL=style.css.map */
