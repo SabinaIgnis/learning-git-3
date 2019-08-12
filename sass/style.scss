@@ -1,21 +1,37 @@
+/* Global */
 p{
   font-family: "Literata";
 }
-.background-image{
-  background-image: url(http://tiny.cc/54graz);
-  color: white;
-  min-height: 600px;
-  object-fit: cover;
-}
-.logo{
-  max-height: 32px;
-}
+
 img{
   max-width: 100%;
 
 }
+.small_header{
+  text-align: center;
+  justify-content: center;
+  flex-wrap: row:
 
+}
+h3{
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  paadding: 10px 0;
+}
+h4{
+  font-family: "Muli";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin: 0;
+}
 /* Navigation */
+.logo{
+  max-height: 32px;
+}
 .navigation_con{
   display: flex;
   justify-content: space-between;
@@ -46,6 +62,13 @@ img{
     color: white;
 
 }
+/* Splash */
+.background-image{
+  background-image: url(http://tiny.cc/54graz);
+  color: white;
+  min-height: 600px;
+  object-fit: cover;
+}
 .splash{
   display: flex;
   display: block;
@@ -70,18 +93,7 @@ img{
   color: white;
   text-decoration: none;
 }
-.small_header{
-  text-align: center;
-  justify-content: center;
-  flex-wrap: row:
-
-}
-h3{
-  font-family: "Muli", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  paadding: 10px 0;
-}
+/* Content */
 .row{
   display: flex;
   flex-row: wrap;
@@ -129,17 +141,13 @@ h3{
 .box_text{
   background-color: #d9e8ef;
   text-align: center;
+  margin-top: 0;
 }
-h4{
-  font-family: "Muli";
-  font-weight: bold;
-}
+
 /*# sourceMappingURL=style.css.map */
 /* Footer */
 .footer{
   min-height: 100px;
-
-
 
 
 }
