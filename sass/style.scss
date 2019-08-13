@@ -10,7 +10,7 @@ img{
 .small_header{
   text-align: center;
   justify-content: center;
-  flex-wrap: row:
+  flex-wrap: row;
 
 }
 h3{
@@ -44,13 +44,9 @@ body{
     font-family: 'Literata', serif;
 }
 .navigation ul{
-
-
     padding: 0;
     margin: 0;
     list-style-type: none;
-
-
 }
 .navigation li{
     display: inline-block;
@@ -174,11 +170,7 @@ body{
   text-align: center;
 
 }
-
-}
 .footer_list i{
     color: #fff
 
 }
-
-*/
