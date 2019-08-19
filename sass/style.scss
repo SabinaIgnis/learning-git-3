@@ -11,6 +11,7 @@ img{
   margin: 0;
   padding: 0;
   border: 0;
+  display: flex;
 
 }
 .small_header{
@@ -37,7 +38,8 @@ h4{
 h5{
   font-family: Muli, sans-serif;
   color: grey;
-  display: flex;
+  float: left;
+  display: inline-block;
 }
 body{
   margin: 0;
@@ -178,15 +180,18 @@ body{
 /* Footer */
 .footer{
   min-height: 100px;
+  position: relative;
 }
 .icons{
-  margin: auto;
-  width: 100%;
+  justify-content: center;
   text-align: center;
+  margin: auto;
   padding: 16px 0;
+  align-items: center;
+  display: inline-block;
+
 }
 .footer i{
-  display: flex;
   display: inline-block;
   border-radius: 50%;
   background-color: black;
@@ -195,6 +200,8 @@ body{
   line-height: 64px;
   color: white;
   font-size: 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -204,7 +211,6 @@ body{
 }
 /* Media */
 @media (max-width: 767px) {
-
   .box2{
     width: 100%;
   }

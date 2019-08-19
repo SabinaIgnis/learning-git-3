@@ -11,6 +11,8 @@ img {
   margin: 0;
   padding: 0;
   border: 0;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .small_header {
@@ -42,8 +44,8 @@ h4 {
 h5 {
   font-family: Muli, sans-serif;
   color: grey;
-  display: -ms-flexbox;
-  display: flex;
+  float: left;
+  display: inline-block;
 }
 
 body {
@@ -215,18 +217,21 @@ body {
 /* Footer */
 .footer {
   min-height: 100px;
+  position: relative;
 }
 
 .icons {
-  margin: auto;
-  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
   text-align: center;
+  margin: auto;
   padding: 16px 0;
+  -ms-flex-align: center;
+      align-items: center;
+  display: inline-block;
 }
 
 .footer i {
-  display: -ms-flexbox;
-  display: flex;
   display: inline-block;
   border-radius: 50%;
   background-color: black;
@@ -235,6 +240,10 @@ body {
   line-height: 64px;
   color: white;
   font-size: 32px;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
