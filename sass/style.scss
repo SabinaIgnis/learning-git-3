@@ -38,8 +38,6 @@ h4{
 h5{
   font-family: Muli, sans-serif;
   color: grey;
-  float: left;
-  display: inline-block;
 }
 body{
   margin: 0;
@@ -187,8 +185,11 @@ body{
   text-align: center;
   margin: auto;
   padding: 16px 0;
-  align-items: center;
-  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  padding-top: 0;
 
 }
 .footer i{
